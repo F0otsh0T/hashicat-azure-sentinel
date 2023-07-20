@@ -8,6 +8,14 @@ terraform {
       version = ">=3.41.0"
     }
   }
+  backend "remote" {
+    hostname     = "app.terraform.io"
+    organization = "testbed"
+
+    workspaces {
+      name = "hashicat-azure-sentinel"
+    }
+  }
 }
 
 provider "azurerm" {
