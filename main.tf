@@ -26,7 +26,7 @@ provider "azurerm" {
   }
 }
 
-resource "azurerm_resource_group" "myresourcegroup" {
+resource "azurerm_resource_group" "rg-hashicat-azure-sentinel" {
   name     = "${var.prefix}-workshop"
   location = var.location
 
