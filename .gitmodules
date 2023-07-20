@@ -1,0 +1,6 @@
+[submodule "hashicat-azure"]
+	path = hashicat-azure
+	url = https://github.com/hashicorp/hashicat-azure.git
+[submodule "terraform-sentinel-policies"]
+	path = terraform-sentinel-policies
+	url = https://github.com/hashicorp/terraform-sentinel-policies.git
